@@ -373,7 +373,7 @@ footer > section {
   text-align: center;
   flex: 0 0 20%;
   color: var(--var-text-white-color);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .footer-icon-sosmed {
   position: absolute;
