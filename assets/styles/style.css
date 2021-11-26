@@ -333,10 +333,11 @@ footer > section {
 }
 .footer-box-text1 {
   flex: 0 0 40%;
+  margin-top: -1rem;
 }
 .footer-box-text1 h1 {
   color: var(--var-text-white-color);
-  font-size: 56px;
+  font-size: 52px;
 }
 .footer-box-text2 {
   text-align: center;
@@ -353,11 +354,19 @@ footer > section {
   height: 1px;
   background-color: var(--var-text-white-color);
 }
+.footer-box-text2,
+.footer-box-text3 {
+  margin-top: -2rem;
+}
+.footer-box-text2 h1,
+.footer-box-text3 h1 {
+  font-size: 32px;
+}
 .footer-box-text1 p,
 .footer-box-text2 p,
 .footer-box-text3 p {
   margin-top: 1rem;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
 }
 .footer-box-text3 {
