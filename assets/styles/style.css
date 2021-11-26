@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Jost:wght@300&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex&family=Jost:wght@500&family=Montserrat:wght@600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -17,13 +17,15 @@
 }
 
 /* eka */
+body {
+  background-color: #f9f3ec;
+}
 nav {
   padding-top: 10px;
   padding-left: 100px;
   padding-right: 100px;
   display: flex;
   justify-content: center;
-  background-color: rgb(248, 241, 231);
 }
 nav ul {
   display: flex;
@@ -52,23 +54,27 @@ nav .logo img {
 }
 header .living {
   padding: 14px;
-  background-color: rgb(221, 174, 112);
+  background-color: #d1a961;
   text-align: center;
+  font-family: "Caudex", serif;
 }
 header .living i {
   letter-spacing: 5px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 header .welcome {
   display: flex;
 }
 header .welcome .kr {
-  width: 30%;
-  margin: 100px;
+  width: 35%;
+  margin-top: 150px;
+  margin-left: 70px;
+  padding-right: 100px;
 }
 header .welcome h1 {
   font-size: 50px;
+  font-family: "Jost", sans-serif;
 }
 header .welcome p {
   margin-top: 50px;
@@ -82,10 +88,35 @@ header .welcome p {
   font-size: 13px;
 }
 header .welcome .kn {
-  width: 65%;
+  width: 70%;
 }
 header .welcome .kn img {
   width: 100%;
+}
+.care {
+  width: 100%;
+}
+.care .images img {
+  width: 100%;
+  margin-top: 50px;
+}
+.care .title {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  background-image: url("../img/artpages2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.care h1 {
+  padding: 200px;
+  background-color: rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 15px;
+  color: rgb(255, 255, 255);
 }
 
 /* bagian riski ========= */
