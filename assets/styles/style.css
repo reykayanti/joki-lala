@@ -159,6 +159,7 @@ main {
   letter-spacing: 10px;
   font-family: var(--var-font-caudex);
   margin: 0 3rem;
+  color: white;
 }
 .box-name-title span {
   display: block;
@@ -363,16 +364,19 @@ footer > section {
   text-align: center;
   flex: 0 0 20%;
   color: var(--var-text-white-color);
+  margin-bottom: 20px;
 }
 .footer-icon-sosmed {
   position: absolute;
   bottom: 2rem;
   left: 45%;
+  padding-top: 50px;
 }
 .footer-icon-sosmed .fab {
   font-size: 35px;
   color: #fff;
   margin: 0 0.5rem;
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 992px) {
