@@ -366,11 +366,11 @@ footer > section {
 }
 .footer-icon-sosmed {
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   left: 45%;
 }
 .footer-icon-sosmed .fab {
-  font-size: 28px;
+  font-size: 20px;
   color: #fff;
   margin: 0 0.5rem;
 }
@@ -495,7 +495,7 @@ footer > section {
     margin: 3px;
     padding: 5px;
   } */
-  /* 
+  /*
   nav {
     justify-content: center;
     padding: 0;
@@ -505,8 +505,8 @@ footer > section {
     margin-left: 0px;
     padding: 0;
   }
-  
-  
+
+
   header .living i {
     letter-spacing: 5px;
     font-size: 18px;
