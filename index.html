@@ -14,14 +14,14 @@
     <title>The Loft</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body>
-    <nav>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" id="body">
+    <nav id="section1">
       <ul>
         <li>
-          <a href="#">WELCOME</a>
+          <a href="#section1">WELCOME</a>
         </li>
         <li>
-          <a href="#">MENU</a>
+          <a href="#section2">MENU</a>
         </li>
       </ul>
       <div class="logo">
@@ -29,10 +29,10 @@
       </div>
       <ul>
         <li>
-          <a href="#">RESERVATION</a>
+          <a href="#section3">RESERVATION</a>
         </li>
         <li>
-          <a href="#">CONTACT</a>
+          <a href="#section4">CONTACT</a>
         </li>
       </ul>
     </nav>
@@ -95,7 +95,7 @@
         </div>
       </div>
       <section>
-        <div class="box-favorites">
+        <div class="box-favorites" id="section2">
           <div class="box-fav-name">
             <h1>SOME OF OUR FAVORITES</h1>
           </div>
@@ -143,7 +143,7 @@
         <span></span>
       </div>
       <section>
-        <div class="footer-box-text1">
+        <div class="footer-box-text1" id="section4">
           <h1>FIND US AT</h1>
         </div>
         <div class="footer-box-text2">
@@ -162,6 +162,9 @@
         </div>
       </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -171,4 +174,15 @@
       AOS.init();
     </script>
   </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
 </html>
