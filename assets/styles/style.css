@@ -10,7 +10,7 @@
 :root {
   --var-bg-color: #d1a961;
   --var-text-color: #000;
-  --var-text-white-color: #f9f3ec;
+  --var-text-white-color: #ece6de;
   --var-font-caudex: "Caudex", serif;
   --var-font-jost: "Jost", sans-serif;
   --var-font-mont: "Montserrat", sans-serif;
@@ -37,6 +37,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   letter-spacing: 2px;
+  /* padding: 5px; */
   font-size: 15px;
   color: rgb(114, 89, 60);
 }
@@ -69,8 +70,8 @@ header .welcome {
   display: flex;
 }
 header .welcome .kr {
-  width: 35%;
-  margin-top: 150px;
+  width: 40%;
+  margin-top: 183px;
   margin-left: 70px;
   padding-right: 100px;
 }
@@ -79,10 +80,9 @@ header .welcome h1 {
   font-family: "Jost", sans-serif;
 }
 header .welcome p {
-  margin-top: 50px;
+  margin-top: 25px;
   font-size: 13px;
   color: black;
-  text-align: justify;
 }
 header .welcome p b i {
   font-family: "Caudex", serif;
@@ -90,14 +90,17 @@ header .welcome p b i {
 header .welcome p b {
   font-family: "Montserrat", sans-serif;
 }
-.welcome a {
-  margin-top: 20px;
+.welcome .kr .link {
+  margin-top: -10px;
+}
+.welcome .kr a {
   color: black;
   font-size: 13px;
   font-family: "Caudex", serif;
 }
 header .welcome .kn {
   width: 70%;
+  margin: 30px;
 }
 header .welcome .kn img {
   width: 100%;
@@ -107,10 +110,10 @@ header .welcome .kn img {
 }
 .care .images img {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .care .title {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
   width: 100%;
   background-image: url("../img/artpages2.png");
