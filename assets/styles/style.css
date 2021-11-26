@@ -7,6 +7,12 @@
   font-family: 'Jost', sans-serif;
   font-family: 'Montserrat', sans-serif; */
 }
+:root {
+  --var-bg-color: #d1a961;
+  --var-text-color: #000;
+  --var-text-white-color: #f9f3ec;
+  --var-font-caudex: "Caudex", serif;
+}
 
 /* eka */
 body {
@@ -85,4 +91,93 @@ header .welcome .kn img {
   width: 100%;
 }
 
+<<<<<<< HEAD
+/* bagian riski ========= */
+main {
+  width: 100%;
+  height: 100%;
+  margin-top: 20rem; /*sementara*/
+}
+.box-name-ingredients {
+  width: 100%;
+  height: 15vh;
+  border-top: 5px solid var(--var-bg-color);
+  border-bottom: 5px solid var(--var-bg-color);
+}
+.box-name-ingredients .box-name-title {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.box-name-title h1 {
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  margin: 0 3rem;
+}
+.box-name-title span {
+  display: block;
+  margin-top: -0.3rem;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+}
+main > section {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+.box-favorites {
+  width: 100%;
+  height: 100vh;
+}
+.box-favorites .box-fav-name {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: -3rem;
+}
+.box-favorites .box-fav-name h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: var(--var-bg-color);
+}
+.box-favorites .box-fav-image {
+  width: 90%;
+  margin: auto;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.box-fav-image .box-fav-image-all {
+  margin: 0 1rem;
+}
+.box-fav-image .box-fav-image-all img {
+  width: 350px;
+  border-radius: 2px;
+  height: 350px;
+}
+.box-fav-image2 img {
+}
+
+.box-fav-image .box-fav-image-all {
+  width: 100%;
+  height: 70%;
+}
+.box-fav-image .box-fav-image1-text {
+  width: 100%;
+  height: 30%;
+}
+=======
 /* riski */
+>>>>>>> 0058802bccbf9ef489520d18958a8a77b15c91ba
