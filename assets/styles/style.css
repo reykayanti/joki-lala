@@ -12,6 +12,8 @@
   --var-text-color: #000;
   --var-text-white-color: #f9f3ec;
   --var-font-caudex: "Caudex", serif;
+  --var-font-jost: "Jost", sans-serif;
+  --var-font-mont: "Montserrat", sans-serif;
 }
 
 /* eka */
@@ -86,7 +88,6 @@ header .welcome .kn img {
   width: 100%;
 }
 
-<<<<<<< HEAD
 /* bagian riski ========= */
 main {
   width: 100%;
@@ -96,8 +97,9 @@ main {
 .box-name-ingredients {
   width: 100%;
   height: 15vh;
-  border-top: 5px solid var(--var-bg-color);
-  border-bottom: 5px solid var(--var-bg-color);
+  background-color: var(--var-bg-color);
+  /* border-top: 5px solid var(--var-bg-color);
+  border-bottom: 5px solid var(--var-bg-color); */
 }
 .box-name-ingredients .box-name-title {
   width: 90%;
@@ -107,11 +109,13 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  color: var(--var-text-white-color);
 }
 .box-name-title h1 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: normal;
   letter-spacing: 10px;
+  font-family: var(--var-font-caudex);
   margin: 0 3rem;
 }
 .box-name-title span {
@@ -119,7 +123,7 @@ main {
   margin-top: -0.3rem;
   width: 8px;
   height: 8px;
-  background-color: #000;
+  background-color: var(--var-text-white-color);
   border-radius: 50%;
 }
 main > section {
@@ -127,9 +131,11 @@ main > section {
   height: 100%;
   margin: auto;
 }
+/* box favorites */
 .box-favorites {
   width: 100%;
   height: 100vh;
+  margin-bottom: 3rem;
 }
 .box-favorites .box-fav-name {
   width: 100%;
@@ -138,11 +144,11 @@ main > section {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  margin-bottom: -3rem;
 }
 .box-favorites .box-fav-name h1 {
   font-size: 60px;
   font-weight: bolder;
+  font-family: var(--var-font-jost);
   color: var(--var-bg-color);
 }
 .box-favorites .box-fav-image {
@@ -162,17 +168,133 @@ main > section {
   border-radius: 2px;
   height: 350px;
 }
-.box-fav-image2 img {
-}
-
 .box-fav-image .box-fav-image-all {
   width: 100%;
   height: 70%;
+  margin-bottom: 8rem;
 }
-.box-fav-image .box-fav-image1-text {
+.box-fav-image-all .box-fav-text-all {
+  position: relative;
   width: 100%;
-  height: 30%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
-=======
-/* riski */
->>>>>>> 0058802bccbf9ef489520d18958a8a77b15c91ba
+.box-fav-text-all h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.box-fav-text-all h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.box-fav-text-all p {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  width: 70%;
+  font-family: var(--var-font-mont);
+}
+/* box favour our menu */
+.box-view-our-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--var-bg-color);
+  width: 95%;
+  margin: auto;
+  height: 20vh;
+  box-shadow: 20px 20px var(--var-bg-color);
+  border: 1px solid var(--var-bg-color);
+}
+.box-view-our-menu h1 {
+  font-size: 52px;
+  font-family: var(--var-font-caudex);
+}
+
+/* footer */
+footer {
+  font-family: var(--var-font-mont);
+  position: relative;
+  width: 100%;
+  height: 70vh; /*semmentara */
+  margin-top: 8rem;
+  background-color: var(--var-bg-color);
+}
+footer .line-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+footer span {
+  display: inline-block;
+  width: 100%;
+  margin: 1.1rem 0;
+  height: 1.8%;
+  opacity: 0.08;
+  background-color: var(--var-text-white-color);
+}
+footer > section {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  z-index: 9999;
+}
+.footer-box-text1 {
+  flex: 0 0 40%;
+}
+.footer-box-text1 h1 {
+  color: var(--var-text-white-color);
+  font-size: 56px;
+}
+.footer-box-text2 {
+  text-align: center;
+  flex: 0 0 20%;
+  margin-right: 6rem;
+  color: var(--var-text-white-color);
+}
+.footer-box-text2 h1::after,
+.footer-box-text3 h1::after {
+  content: "";
+  display: block;
+  width: 70%;
+  margin: auto;
+  height: 1px;
+  background-color: var(--var-text-white-color);
+}
+.footer-box-text1 p,
+.footer-box-text2 p,
+.footer-box-text3 p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 100;
+}
+.footer-box-text3 {
+  text-align: center;
+  flex: 0 0 20%;
+  color: var(--var-text-white-color);
+}
+.footer-icon-sosmed {
+  position: absolute;
+  bottom: 3rem;
+  left: 45%;
+}
+.footer-icon-sosmed .fab {
+  font-size: 28px;
+  color: #fff;
+  margin: 0 0.5rem;
+}
