@@ -107,7 +107,6 @@ header .welcome .kn img {
   background-image: url("../img/artpages2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 .care h1 {
   padding: 200px;
