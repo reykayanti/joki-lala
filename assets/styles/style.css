@@ -84,10 +84,17 @@ header .welcome p {
   color: black;
   text-align: justify;
 }
+header .welcome p b i {
+  font-family: "Caudex", serif;
+}
+header .welcome p b {
+  font-family: "Montserrat", sans-serif;
+}
 .welcome a {
   margin-top: 20px;
   color: black;
   font-size: 13px;
+  font-family: "Caudex", serif;
 }
 header .welcome .kn {
   width: 70%;
@@ -191,6 +198,12 @@ main > section {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+.box-favorites .box-fav-image p {
+  font-family: "Caudex", serif;
+}
+.box-favorites .box-fav-image h1 {
+  font-family: "Montserrat", sans-serif;
 }
 .box-fav-image .box-fav-image-all {
   margin: 0 1rem;
@@ -468,9 +481,18 @@ footer > section {
   /* header {
     background-color: aqua;
   }
-  nav .logo img {
+  /*  */
+  /* nav .logo img {
     display: none;
   }
+  nav ul li a {
+    font-size: 8px;
+  }
+  nav ul li {
+    margin: 3px;
+    padding: 5px;
+  } */
+  /* 
   nav {
     justify-content: center;
     padding: 0;
@@ -480,13 +502,8 @@ footer > section {
     margin-left: 0px;
     padding: 0;
   }
-  nav ul li {
-    margin: 3px;
-    padding: 5px;
-  }
-  nav ul li a {
-    font-size: 15px;
-  }
+  
+  
   header .living i {
     letter-spacing: 5px;
     font-size: 18px;
