@@ -376,7 +376,7 @@ footer > section {
   flex: 0 0 20%;
   margin-top: -0.9rem;
   color: var(--var-text-white-color);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .footer-icon-sosmed {
   position: absolute;
@@ -495,6 +495,10 @@ footer > section {
     flex: 0 0 30%;
     flex-shrink: 0;
   }
+  .footer-icon-sosmed {
+    bottom: 0;
+    left: 40%;
+  }
 }
 @media only screen and (max-width: 600px) {
   /* header {
@@ -559,5 +563,9 @@ footer > section {
     flex-shrink: 0;
     left: 40%;
     flex-basis: 4;
+  }
+  .footer-icon-sosmed {
+    bottom: 0;
+    left: 33%;
   }
 }
