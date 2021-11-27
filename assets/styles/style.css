@@ -344,6 +344,7 @@ footer > section {
   flex: 0 0 20%;
   margin-right: 6rem;
   color: var(--var-text-white-color);
+  /* background-color: lavender; */
 }
 .footer-box-text2 h1::after,
 .footer-box-text3 h1::after {
@@ -371,7 +372,9 @@ footer > section {
 }
 .footer-box-text3 {
   text-align: center;
+  /* background-color: lavender; */
   flex: 0 0 20%;
+  margin-top: -0.9rem;
   color: var(--var-text-white-color);
   margin-bottom: 20px;
 }
