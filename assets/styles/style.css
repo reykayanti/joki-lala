@@ -16,7 +16,7 @@
   --var-font-mont: "Montserrat", sans-serif;
 }
 
-body {
+.bd {
   background-color: #f9f3ec;
 }
 nav {
